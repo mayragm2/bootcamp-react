@@ -1,0 +1,20 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aaaj {
+    margin-left: auto;
+    margin-left: auto;
+    width: 50%;
+    background-color: red;
+    font-style: blue;
+}
+
+.info {
+    margin-left: auto;
+    margin-left: auto;
+    width: 50%;
+    background-color: rgb(218, 214, 214);
+}
