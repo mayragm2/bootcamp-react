@@ -1,10 +1,10 @@
-import ContentClase1 from './clase1/barua/Content.tsx'
+import ContentClase2Barua from './clase2/barua/Content.tsx'
 
 function App() {
   
   return (
     <>
-     <ContentClase1/>
+     <ContentClase2Barua/>
     </>
   )
 }
