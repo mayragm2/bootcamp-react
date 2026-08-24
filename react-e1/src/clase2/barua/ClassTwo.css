@@ -1,0 +1,21 @@
+* {
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-small;
+}
+
+.aaaj {
+    margin: auto;
+    background-color: red;
+    font-style: blue;
+}
+
+.info {
+    margin: auto;
+    background-color: rgb(218, 214, 214);
+}
