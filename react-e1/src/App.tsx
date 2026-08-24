@@ -1,6 +1,4 @@
-import './App.css'
 import ContentClase1 from './clase1/barua/Content.tsx'
-
 
 function App() {
   
