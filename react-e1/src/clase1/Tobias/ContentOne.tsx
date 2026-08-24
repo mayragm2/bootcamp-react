@@ -1,12 +1,12 @@
 import Saludar from "./Saludar"
 import TarjetaPerfil from "./TarjetaPerfil"
-import "./Class1.css"
+
 
 function ContentOne() {
     return (
         <div>
             <Saludar />
-            <TarjetaPerfil />
+            <TarjetaPerfil nombre="@baruabichitolove" descripcion="Hola, soy Baruabichito y me gusta el futbol y el bicho AAAJ" imagen="/pipalezcano.jpg" />
         </div>
 
     )

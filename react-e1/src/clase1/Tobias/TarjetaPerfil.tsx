@@ -1,9 +1,15 @@
-const TarjetaPerfil = () => {
+interface TarjetaPerfilProps {
+  nombre: string;
+  descripcion: string;
+  imagen: string;
+}
+
+const TarjetaPerfil = (props: TarjetaPerfilProps) => {
     return (
      <div>  
-        <h1 className= "title">@baruabichitolove</h1>
-        <p>Hola, soy Baruabichito y me gusta el futbol y el bicho AAAJ</p>
-        <img className="logoPipa" src="/pipalezcano.jpg" alt="Logo" />
+        <h1 className= "title">{props.nombre}</h1>
+        <p>{props.descripcion}</p>
+        <img className="logoPipa" src={props.imagen} alt="Logo" />
      </div>
     )
 }
