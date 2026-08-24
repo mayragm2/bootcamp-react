@@ -1,5 +1,5 @@
 import './App.css'
-import ContentClase1 from './clase1/contenido'
+import ContentClase1 from './clase1/Mayra/contenido'
 
 
 function App() {
