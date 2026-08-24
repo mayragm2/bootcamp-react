@@ -1,5 +1,6 @@
 import './App.css'
-import TarjetaPerfil from './clase2/Mayra/exercise1'
+import Saludo from './clase2/Mayra/exercise1'
+import TarjetaPerfil from './clase2/Mayra/exercise3'
 
 
 function App() {
@@ -17,11 +18,13 @@ function App() {
     descripcion='Carlos Alberto García Moreno, más conocido por su nombre artístico Charly García, es un músico, cantautor, multinstrumentista, compositor y productor discográfico argentino, considerado una de las figuras más importantes de la música popular argentina, latinoamericana y del rock en español.' 
     url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv-tUj5RzegsLD7AANXWFaitqz0eRS0Lzg1pacoau1nwVE5UUn795XaaGD2P36xG2QZ9hrSgW3jD1IBZ3BkPR1mcGDJg8NwvheKifc6_A&s=10' 
     />
-
-
     </div>
     
-    
+    <div>
+      <Saludo nombre='Mario'/>
+      <Saludo nombre='Claudia'/>
+      <Saludo nombre='Gepeto'/>
+    </div>
     </>
   )
 }
