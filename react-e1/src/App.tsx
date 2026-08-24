@@ -1,12 +1,12 @@
-import './App.css'
-import ContentClase1 from './clase1/Mayra/contenido'
 
+import Content from './clase2/Tobias/Content';
 
 function App() {
   
   return (
     <>
-     <ContentClase1/>
+     <Content/>
+
     </>
   )
 }
