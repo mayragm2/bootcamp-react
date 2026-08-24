@@ -1,5 +1,6 @@
 import './App.css'
 import Saludo from './clase2/Mayra/exercise1'
+import TarjetaProducto from './clase2/Mayra/exercise2'
 import TarjetaPerfil from './clase2/Mayra/exercise3'
 
 
@@ -24,6 +25,24 @@ function App() {
       <Saludo nombre='Mario'/>
       <Saludo nombre='Claudia'/>
       <Saludo nombre='Gepeto'/>
+    </div>
+
+    <div style={{display: 'flex'}}>
+      <TarjetaProducto
+      nombre='Arvejas'
+      precio={3500}
+      stock={200}
+      />
+      <TarjetaProducto
+      nombre='Lentejas'
+      precio={4500}
+      stock={100}
+      />
+      <TarjetaProducto
+      nombre='Encendedor'
+      precio={1000}
+      stock={30}
+      />
     </div>
     </>
   )

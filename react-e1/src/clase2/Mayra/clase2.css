@@ -17,3 +17,12 @@
     justify-content: center;
 }
 
+.tarjeta-producto{
+    border: 2px dashed rgb(152, 36, 194);
+    border-radius: 1rem;
+    color: black;
+    margin: 2%;
+    padding: 2%;
+    align-content: center;
+    justify-content: center;
+}
