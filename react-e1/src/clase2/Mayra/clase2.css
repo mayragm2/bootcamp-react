@@ -1,7 +1,6 @@
-
 .card {
     padding: 1rem;
-    background: linear-gradient(rgb(100, 67, 156), black);
+    background: linear-gradient(rgb(100, 67, 156), rgb(255, 0, 0));
     border: 0.1rem solid rgb(100, 67, 156);
 
     width: 80%;

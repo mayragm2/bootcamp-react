@@ -1,4 +1,3 @@
-
 .card {
     padding: 1rem;
     background: linear-gradient(rgb(100, 67, 156), black);
@@ -12,6 +11,7 @@
     width: 90%;
     border-radius: 1rem;
 }
+
 .cardDisplay {
     display: flex;
     justify-content: center;
