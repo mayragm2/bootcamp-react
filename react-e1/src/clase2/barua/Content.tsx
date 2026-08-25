@@ -1,24 +1,24 @@
-import Saludar from "./Saludo"
-import TarjetaPerfil from "./TarjetaProducto"
+import Saludo from "./Saludo"
+import TarjetaProducto from "./TarjetaProducto"
 import './ClassTwo.css'
 
 function Content() {
     return (
-        <div className="flex">
-            <section className="aaaj">
-                <Saludar nombre="Raul" />
+        <div className="content-layout">
+            <section className="highlight-panel">
+                <Saludo nombre="Raul" />
             </section>
-            <section className="aaaj">
-                <Saludar nombre="Juan" />
+            <section className="highlight-panel">
+                <Saludo nombre="Juan" />
             </section>
-            <section className="aaaj">
-                <Saludar nombre="Aaaj!!!!" />
+            <section className="highlight-panel">
+                <Saludo nombre="Aaaj!!!!" />
             </section>
-            <section className="info">
-                <TarjetaPerfil nombre="Carta pokemon" precio={16000} stock={2}/>
+            <section className="information-card">
+                <TarjetaProducto nombre="Carta pokemon" precio={16000} stock={2}/>
             </section>
-            <section className="info">
-                <TarjetaPerfil nombre="Remera termica" precio={200000} stock={10}/>
+            <section className="information-card">
+                <TarjetaProducto nombre="Remera termica" precio={200000} stock={10}/>
             </section>
         </div>
     )

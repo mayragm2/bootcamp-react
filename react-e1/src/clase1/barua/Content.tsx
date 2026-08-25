@@ -4,17 +4,17 @@ import "./ClassOne.css"
 
 function Content() {
     return (
-        <div className="flex">
-            <section className="aaaj">
+        <div className="content-layout">
+            <section className="highlight-panel">
                 <Saludar />
             </section>
-            <section className="info">
+            <section className="information-card">
                 <TarjetaPerfil nombre="aaaj" info="mucha info de aaaj" foto="imagen de aaaj" />
             </section>
-            <section className="info">
+            <section className="information-card">
                 <TarjetaPerfil nombre="no se" info="mucha info" foto="imagen" esFavorito={true} />
             </section>
-            <section className="info">
+            <section className="information-card">
                 <TarjetaPerfil nombre="bruno logs" info="mucha info de APIs" foto="imagen de bruno" />
             </section>
         </div>
